@@ -9,8 +9,6 @@ import java.awt.font.TextAttribute;
 import java.util.Map;
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JScrollBar;
-import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 /*
@@ -90,33 +88,8 @@ public class TestEditLayout {
                 textArea.setFont(textArea.getFont().deriveFont(attrs));
                 textArea.setFont(textArea.getFont().deriveFont(Font.ITALIC));
             }
-            
-        
+                   
         });
-
-
-
-
-
-
-
-        /*
-        
-         JPanel panel1 = new JPanel ();
-         JTextArea texto = new JTextArea ("Escriba aqui!");
-         texto.setOpaque(true);
-         panel1.setBackground(Color.WHITE);
-         texto.setBounds(600, 600, 400, 600);
-         panel1.add(texto);
-         pane.add(panel1, FlowLayout.LEFT);
-        
-         //2.- Component
-         JPanel panel2 = new JPanel ();
-         panel2.setLayout(new BoxLayout (panel2, BoxLayout.Y_AXIS));
-         panel2.setPreferredSize(new Dimension(100, 300));
-         addButtonsToPanel (panel2);
-         pane.add(panel2);
-         * */
     }
 
     private static void createAndShowGUI() {
